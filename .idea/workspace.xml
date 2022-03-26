@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83622aa-df68-4cc6-a350-4d9ab3a72d1c" name="Changes" comment="">
+    <list default="true" id="c83622aa-df68-4cc6-a350-4d9ab3a72d1c" name="Changes" comment="update test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/MemberFormServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/MemberListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/MemberSaveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/servlet/domain/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/servlet/domain/member/MemberRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +29,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="servlet" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -53,7 +65,6 @@
   <component name="ProjectId" id="26XeGdqVNR04Wybv4YD8VkmnsWg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,9 +74,9 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ServletApplication">
     <configuration name="ServletApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.servlet.ServletApplication" />
       <module name="servlet.main" />
@@ -79,8 +90,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberRepositoryTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;hello.servlet.domain.member.MemberRepositoryTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberRepositoryTest.save" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;hello.servlet.domain.member.MemberRepositoryTest.save&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MemberRepositoryTest" />
+        <item itemvalue="Gradle.MemberRepositoryTest.save" />
         <item itemvalue="Application.ServletApplication" />
       </list>
     </recent_temporary>
@@ -94,6 +149,14 @@
       <option name="presentableId" value="Default" />
       <updated>1647574266618</updated>
     </task>
+    <task id="LOCAL-00001" summary="update test">
+      <created>1647593907025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647593907025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +170,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
